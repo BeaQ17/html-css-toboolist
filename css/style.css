@@ -83,5 +83,58 @@ header{
 
 .check::before{
     content: "\2713";
-    border-color: green;
+    color: green;
+    border: 1px solid green;
+    border-radius: 60%;
+    margin-right: 5px;
+}
+
+
+.cross::before{
+    content: "\2715";
+    color: red;
+    border: 1px solid red;
+    border-radius: 60%;
+    margin-right: 5px;
+}
+
+
+.todo{
+    margin-top: 12px;
+}
+
+.tag{
+    display: inline-block;
+    height: 25px;
+    width: 70px;
+    border-radius: 25px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    line-height: 25px;
+}
+
+.editorial{
+    background-color: cornflowerblue;
+}
+
+.goals{
+    background-color: rgb(153, 42, 187);
+}
+
+.recruiting{
+    background-color: rgb(34, 189, 189);
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: palevioletred;
+}
+
+.sales{
+    background-color: greenyellow;
 }
