@@ -59,5 +59,29 @@ header{
 
 
 .centerunder{
-    
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.content{
+    margin-left: 50px;
+}
+
+.letask {
+    margin-left: 50px;
+    padding-top: 30px;
+}
+
+.arrow::before{
+    content: "\0025BE";
+    margin-right: 4px;
+}
+
+
+.check::before{
+    content: "\2713";
+    border-color: green;
 }
