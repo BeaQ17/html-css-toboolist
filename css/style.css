@@ -1,1 +1,34 @@
 
+body {
+    font-family: "Arial", sans-serif;
+  }
+
+
+
+.blue{
+      height: 30px;
+      width: 90px;
+      background-color: rgb(43, 139, 228);
+      border-radius: 5px;
+      color: white;
+      float: left;
+}
+
+#task{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.white {
+      height: 30px;
+      width: 120px;
+      border: 1px solid;
+      border-color: lightgrey;
+      border-radius: 5px;
+      color: lightgrey;
+      float: left;
+      margin-left: 5px;
+}
+
